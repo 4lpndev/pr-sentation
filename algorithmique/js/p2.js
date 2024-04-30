@@ -60,3 +60,7 @@ document.getElementById("mix").onclick = function () {
     lst = genList()
     displayList(lst, null)
 }
+
+document.getElementById("next").onclick = function () {
+    location.href = "./questions.html"
+}
