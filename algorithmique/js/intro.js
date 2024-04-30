@@ -5,3 +5,7 @@ $("ul li.hidden").each(function (i) {
         nxt();
     });
 });
+
+document.getElementById("next").onclick = function () {
+    location.href = "p1";
+}
