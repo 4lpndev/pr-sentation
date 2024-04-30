@@ -12,16 +12,6 @@
     }
 }
 
-@keyframes anim2 {
-    from {
-        color: rgb(106, 106, 255);
-    }
-
-    to {
-        color: rgb(0, 98, 255);
-    }
-}
-
 @keyframes pop {
     from {
         opacity: 0;
@@ -48,6 +38,16 @@
     }
 }
 
+@keyframes anim2 {
+    from {
+        color: rgb(106, 106, 255);
+    }
+
+    to {
+        color: rgb(0, 98, 255);
+    }
+}
+
 .sommaire {
     font-size: 35px;
     background-image: linear-gradient(-45deg, rgb(106, 106, 255), rgb(0, 98, 255));
@@ -62,22 +62,6 @@
 
 .sommaire .pop {
     animation: pop 2s 1 ease-in;
-}
-
-.hidden {
-    display: none;
-}
-
-#next {
-    display: block;
-    margin: 0 auto;
-    height: 50px;
-    width: 200px;
-    font-size: 20px;
-    background-color: rgb(0, 98, 255);
-    border: 2px solid rgb(0, 98, 255);
-    border-radius: 10px;
-    animation: pop2 2s 1 ease-in;
 }
 
 #next:hover {
