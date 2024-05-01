@@ -48,7 +48,7 @@
     }
 }
 
-#next, #launch, #mix  {
+button  {
     display: block;
     margin: 0 auto;
     height: 50px;
@@ -60,6 +60,18 @@
     animation: pop2 2s 1 ease-in;
 }
 
+input {
+    display: block;
+    margin: 0 auto;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 98, 255);
+    border-radius: 10px;
+    animation: pop2 2s 1 ease-in;
+}
 
 
 #title {

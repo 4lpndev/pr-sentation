@@ -1,4 +1,7 @@
 .current {
     background-color: lightgreen;
   }
-  
+
+li {
+  font-size: x-large;
+}
